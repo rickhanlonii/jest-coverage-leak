@@ -1,6 +1,6 @@
 ## Overview
 
-Minimal example for a Jest leak using coverage in React components
+Minimal example for a Jest leak using coverage
 
 ### Testing
 
