@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "test:pass": "jest --detectLeaks component.spec.js",
-    "test:fail": "jest --detectLeaks --coverage component.spec.js"
+    "test:fail": "yarn test:pass --coverage"
   },
   "dependencies": {
     "babel-jest": "^22.0.6",
