@@ -4,15 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test:pass": "jest --detectLeaks component.spec.js",
+    "test:pass": "jest --detectLeaks module.spec.js",
     "test:fail": "yarn test:pass --coverage"
   },
   "dependencies": {
-    "babel-jest": "^22.0.6",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
     "jest": "^22.0.6",
-    "react": "^16.2.0",
     "weak": "^1.0.1"
   }
 }
